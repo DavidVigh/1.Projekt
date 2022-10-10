@@ -1,5 +1,6 @@
 body{
     background-color: gray;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .fokartya>h1{
@@ -18,12 +19,24 @@ body{
 
 }
 
+.navbar > ul{
+    padding: 0;
+    list-style: none;
+    display:flex; 
+    gap: 1rem;
+    margin: 10px;
+    margin-right: 5%;
+}
+
 .navbar{
     height: 50px;
     border-bottom-left-radius: 65px;    
     border-bottom-right-radius: 65px;    
+    color: white;
+    text-decoration: none;
 }
 
 .navbar-dark{
     background-color: #252525;
 }
+
