@@ -8,6 +8,16 @@ body{
     font-size: 50px;
 }
 
+.navszoveg{
+    margin-left: 50px;
+    
+}
+
+.navszoveg>h1{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
 .fokartya{
     background-color: white;
     padding: 20px;
