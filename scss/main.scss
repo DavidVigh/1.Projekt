@@ -6,9 +6,10 @@ body {
 
 
 .navszoveg {
-    margin-left: 50px;
+
+
+
     h1 {
-        
         margin-bottom: 30px;
         color: #252525;
         padding: 20px;
@@ -24,11 +25,10 @@ body {
 .fokartya {
     background-color: white;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 80px;
-    height: 1000px;
-
+    margin-bottom: 50px;
     h2 {
         text-align: center;
         font-size: 50px;
@@ -44,6 +44,10 @@ body {
     padding: 20px;
     background-color: rgba(58, 15, 15, 0.295);
     color: #fff;
+    margin-right: 5%;
+    margin-left: 5%;
+
+
 
     ul {
         padding: 0;
@@ -109,9 +113,13 @@ body {
 
 
 main {
-    background-color: #252525;
-    padding-top: 100px;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: #f30000;
+    padding-top: 5%;
+    margin-top: 1%;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    margin-bottom: 5%;
+    padding-bottom: 3%; 
+    border-radius: 25px;
+    height: max-content;
 }
