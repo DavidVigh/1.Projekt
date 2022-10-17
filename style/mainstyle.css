@@ -1,20 +1,18 @@
 body {
-  background-color: gray;
+  background: -moz-linear-gradient(-45deg, gray, rgb(177, 175, 175));
   font-family: "Times New Roman", Times, serif;
-}
-
-.fokartya > h2 {
-  text-align: center;
-  font-size: 50px;
 }
 
 .navszoveg {
   margin-left: 50px;
 }
-
-.navszoveg > h1 {
-  margin-left: 30px;
-  margin-bottom: 50px;
+.navszoveg h1 {
+  margin-bottom: 30px;
+  color: #252525;
+  padding: 20px;
+  vertical-align: auto;
+  background-color: #686868;
+  border-radius: 80px;
 }
 
 .fokartya {
@@ -25,8 +23,21 @@ body {
   border-radius: 80px;
   height: 1000px;
 }
+.fokartya h2 {
+  text-align: center;
+  font-size: 50px;
+}
 
-.navbar > ul {
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(58, 15, 15, 0.295);
+  color: #fff;
+}
+.navbar ul {
   padding: 0;
   list-style: none;
   display: flex;
@@ -35,16 +46,49 @@ body {
   margin-right: 5%;
 }
 
-.navbar {
-  height: 50px;
-  border-bottom-left-radius: 65px;
-  border-bottom-right-radius: 65px;
-  color: white;
-  text-decoration: none;
+.nav-links a {
+  color: #fff;
 }
 
-.navbar-dark {
-  background-color: #252525;
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li {
+  padding: 5px 14px;
+}
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.dropdown {
+  background-color: rgb(1, 139, 139);
+  padding: 1em 0;
+  position: absolute;
+  /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+.dropdown li + li {
+  margin-top: 10px;
+}
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+.dropdown li:hover {
+  background-color: #4c9e9e;
 }
 
 main {

@@ -1,53 +1,112 @@
-body{
-    background-color: gray;
-    font-family:'Times New Roman', Times, serif;
+body {
+    background:-moz-linear-gradient(-45deg,gray,rgb(177, 175, 175));
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.fokartya>h2{
-    text-align: center;
-    font-size: 50px;
-}
 
-.navszoveg{
+
+.navszoveg {
     margin-left: 50px;
-    
+    h1 {
+        
+        margin-bottom: 30px;
+        color: #252525;
+        padding: 20px;
+        vertical-align: auto;
+        background-color: #686868;
+        border-radius: 80px;
+    }
+
 }
 
-.navszoveg>h1{
-    margin-left: 30px;
-    margin-bottom: 50px;
-}
 
-.fokartya{
+
+.fokartya {
     background-color: white;
     padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 80px;
     height: 1000px;
+
+    h2 {
+        text-align: center;
+        font-size: 50px;
+    }
 }
 
 
-.navbar > ul{
-    padding: 0;
-    list-style: none;
-    display:flex; 
-    gap: 1rem;
-    margin: 10px;
-    margin-right: 5%;
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(58, 15, 15, 0.295);
+    color: #fff;
+
+    ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin: 10px;
+        margin-right: 5%;
+    }
 }
 
-.navbar{
-    height: 50px;
-    border-bottom-left-radius: 65px;    
-    border-bottom-right-radius: 65px;    
-    color: white;
-    text-decoration: none;
+.nav-links a {
+    color: #fff;
 }
 
-.navbar-dark{
-    background-color: #252525;
+/* LOGO */
+.logo {
+    font-size: 32px;
 }
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+
+    li {
+        padding: 5px 14px;
+    }
+
+    li:hover {
+        background-color: #4c9e9e;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+}
+
+
+
+.dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute;
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+
+    li+li {
+        margin-top: 10px;
+    }
+
+    li {
+        padding: 0.5em 1em;
+        width: 8em;
+        text-align: center;
+    }
+
+    li:hover {
+        background-color: #4c9e9e;
+    }
+}
+
 
 main {
     background-color: #252525;
@@ -56,4 +115,3 @@ main {
     margin-left: 100px;
     margin-right: 100px;
 }
-
