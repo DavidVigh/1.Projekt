@@ -96,5 +96,10 @@ main {
   margin-top: 1%;
   margin-left: 15% !important;
   margin-right: 15% !important;
-  margin-bottom: 7% !important;
+  margin-bottom: 5%;
+  padding-bottom: 3%;
+  border-radius: 25px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }/*# sourceMappingURL=mainstyle.css.map */
