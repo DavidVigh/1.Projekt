@@ -49,8 +49,20 @@ body {
 
 main {
   background-color: #252525;
-  padding-top: 100px;
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.test {
+  height: 100%;
+  margin: 0 5px 0 0px;
+  width: 400px;
+}
+
+.nj {
+  height: 65%;
+  display: block;
+  margin: auto;
 }/*# sourceMappingURL=mainstyle.css.map */
