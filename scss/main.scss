@@ -1,17 +1,18 @@
 body {
-    background:-moz-linear-gradient(-45deg,gray,rgb(177, 175, 175));
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
     font-family: 'Times New Roman', Times, serif;
 }
 
 
 
 .fokartya {
-    background-color: white;
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 80px;
     margin-bottom: 50px;
+
     h2 {
         text-align: center;
         font-size: 50px;
@@ -25,11 +26,13 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgba(58, 15, 15, 0.295);
+    background: -moz-linear-gradient(-45deg, rgb(73, 73, 73), rgb(155, 155, 155));
     color: #fff;
     margin-right: 5%;
     margin-left: 5%;
     border-radius: 20px;
+    box-shadow: 5px 5px 35px black;
+
 
 
 
@@ -42,7 +45,7 @@ body {
         margin-right: 5%;
     }
 
-    &>h1{
+    &>h1 {
         font-size: 3rem;
     }
 }
@@ -75,13 +78,26 @@ body {
 
 
 main {
-    background-color: #f30000;
+    background: -moz-linear-gradient(-45deg, rgb(82, 82, 82), rgb(170, 170, 170));
     padding-top: 5%;
     margin-top: 1%;
     margin-left: 15% !important;
     margin-right: 15% !important;
     margin-bottom: 5%;
-    padding-bottom: 3%; 
+    padding-bottom: 3%;
     border-radius: 25px;
     height: max-content;
+    box-shadow: 5px 5px 35px black;
+
+    p {
+        background-color: rgb(161, 161, 161);
+        color: aliceblue;
+        font-weight: bold;
+        font-size: large;
+        border-radius: 20px;
+        padding: 5%;
+        
+        
+        
+    }
 }
