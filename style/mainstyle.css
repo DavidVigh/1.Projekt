@@ -13,7 +13,16 @@ body {
 }
 .fokartya h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: 800;
+}
+.fokartya h4 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.fokartya h3 {
+  font-size: 40px;
+  font-weight: 600;
 }
 
 /* NAVBAR STYLING STARTS */
