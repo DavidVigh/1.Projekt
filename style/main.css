@@ -33,6 +33,9 @@ main .fokartya {
   border-radius: 80px;
   margin-bottom: 50px;
 }
+main .fokartya img {
+  border-radius: 40px;
+}
 main .fokartya h2 {
   text-align: center;
   font-size: 60px;
