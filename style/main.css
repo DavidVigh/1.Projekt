@@ -99,6 +99,12 @@ main .fokartya h3 {
   transition: 0.4s ease;
 }
 
+.nj {
+  height: 75%;
+  float: right;
+  margin-top: 35px;
+}
+
 .nj1 {
   margin-bottom: 25px;
   float: right;
