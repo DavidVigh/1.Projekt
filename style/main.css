@@ -18,6 +18,9 @@ main {
   height: max-content;
   box-shadow: 5px 5px 35px black;
 }
+main p {
+  text-align: justify;
+}
 main .szoveghatter {
   background-color: rgb(161, 161, 161);
   color: aliceblue;
